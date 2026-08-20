@@ -3,6 +3,7 @@ import ShowHide from "./components/ShowHide";
 import InputValue from "./components/InputValue";
 import FocusInput from "./components/FocusInput";
 import UserObject from "./components/UserObject";
+import Welcome from "./components/Welcome";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <InputValue />
       <FocusInput />
       <UserObject />
+      <Welcome />
 
     </div>
   );
