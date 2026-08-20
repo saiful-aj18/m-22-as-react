@@ -1,5 +1,7 @@
 import Counter from "./components/Counter";
 import ShowHide from "./components/ShowHide";
+import InputValue from "./components/InputValue";
+import FocusInput from "./components/FocusInput";
 import "./App.css";
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
 
       <Counter />
       <ShowHide />
+      <InputValue />
+      <FocusInput />
 
     </div>
   );
